@@ -1,0 +1,3 @@
+**First Day
+- Create Project Architecture (Onion Architrcture)
+- Create Modules and Download Identity Framework Core for Authentication
