@@ -15,12 +15,16 @@ namespace Persistence.Data.Configurations
         {
             builder.HasKey(t => t.TripId);
 
-            builder.Property(t => t.TripStatus).HasConversion<string>();
-            builder.Property(t => t.Price).HasColumnType("decimal(18,2)");
+            builder.Property(t => t.TripStatus)
+                .HasConversion<string>();
+
+            builder.Property(t => t.Price)
+                .HasColumnType("decimal(18,2)");
 
             builder.HasOne(t => t.Request)
                 .WithOne(r => r.Trip)
-                .HasForeignKey<Trip>(t => t.RequestId);
+                .HasForeignKey<Trip>(t => t.RequestId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
 
     }
