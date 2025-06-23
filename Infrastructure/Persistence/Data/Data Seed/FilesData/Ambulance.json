@@ -1,0 +1,10 @@
+[
+  {
+    "PlateNumber": "ABC-123",
+    "CurrentLocation": "Hospital A",
+    "Status": 0, 
+    "Type": 0, 
+    "DriverId": 1
+  }
+]
+
