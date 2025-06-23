@@ -1,0 +1,30 @@
+[
+    {
+        "FullName": "Admin User",
+        "UserName": "admin-user",
+        "Email": "admin@gmail.com",
+        "Password": "P@ssw0rd",
+        "Role": "Admin"
+    },
+    {
+        "FullName": "Driver User",
+        "UserName": "driver-user",
+        "Email": "driver@gmail.com",
+        "Password": "P@ssw0rd",
+        "Role": "Driver"
+    },
+    {
+        "FullName": "Nurse User",
+        "UserName": "nurse-user",
+        "Email": "nurse@gmail.com",
+        "Password": "P@ssw0rd",
+        "Role": "Nurse"
+    },
+    {
+        "FullName": "Patient User",
+        "UserName": "patient-user",
+        "Email": "patient@gmail.com",
+        "Password": "P@ssw0rd",
+        "Role": "Patient"
+    }
+]

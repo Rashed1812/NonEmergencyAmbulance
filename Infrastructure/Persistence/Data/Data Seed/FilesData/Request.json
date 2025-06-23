@@ -1,0 +1,16 @@
+[
+  {
+    "RequestDate": "2025-06-22T10:00:00Z",
+    "PickupAddress": "Patient Home Address",
+    "DropOffAddress": "Hospital B",
+    "ScheduledDate": "2025-06-22T11:00:00Z",
+    "EmergencyType": "Medical Emergency",
+    "Status": 0, 
+    "Notes": "Patient needs immediate attention.",
+    "AssignedAmbulanceId": 1,
+    "PatientId": 1,
+    "DriverId": 1,
+    "NurseId": 1
+  }
+]
+

@@ -1,3 +1,18 @@
-**First Day
-- Create Project Architecture (Onion Architrcture)
-- Create Modules and Download Identity Framework Core for Authentication
+﻿**First Day
+- Create Project Architecture (Onion Architrcture) done ✅
+- Create Modules and Download Identity Framework Core for Authentication done ✅
+- Create Database Context and Configure Connection String done ✅
+- Create Entities	done ✅
+- Create Configurations for Entities done ✅
+- Handle Relationships Between Entities done ✅
+
+***Second Day
+- Seed default roles & admin user. done ✅
+- Implement role-based authorization. done ✅
+- Seed Data Drom Json File To Database done ✅
+
+***Third Day
+- Create Middleware for Exception Handling
+- Create Regester and Login Endpoints
+- Create JWT Token Service
+

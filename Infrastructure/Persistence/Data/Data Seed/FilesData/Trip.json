@@ -1,0 +1,14 @@
+[
+  {
+    "StartTime": "2025-06-22T11:00:00Z",
+    "EndTime": "2025-06-22T11:30:00Z",
+    "DistanceKM": 15.5,
+    "TripStatus": 0, 
+    "Price": 50.00,
+    "AmbulanceId": 1,
+    "DriverId": 1,
+    "NurseId": 1,
+    "RequestId": 1
+  }
+]
+
