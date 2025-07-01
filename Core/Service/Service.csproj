@@ -11,4 +11,8 @@
     <ProjectReference Include="..\ServiceAbstraction\ServiceAbstraction.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mapping Factory\" />
+  </ItemGroup>
+
 </Project>

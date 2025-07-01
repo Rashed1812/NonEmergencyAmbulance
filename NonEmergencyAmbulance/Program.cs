@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Persistence.Data;
 using Persistence.Data.Data_Seed;
 using DomainLayer.Models.Identity_Module;
+using ServiceAbstraction;
+using Service;
+using DomainLayer.Contracts;
+using Persistence.Repositories;
 
 namespace NonEmergencyAmbulance
 {
@@ -24,6 +28,11 @@ namespace NonEmergencyAmbulance
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+            builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+            builder.Services.AddScoped<IDriverRepository, DriverRepository>();
+            builder.Services.AddScoped<INurseRepository, NurseRepository>();
+            builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+
 
             builder.Services.AddScoped<DataSeed>();
 
