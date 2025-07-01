@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Models
+namespace ServiceAbstraction
 {
-    public enum Gender
+    public interface IDriverService
     {
-        Male = 0,
-        Female = 1,
     }
 }

@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using DomainLayer.Models.Request_Module;
+using Shared;
 
 namespace DomainLayer.Models.Identity_Module
 {
