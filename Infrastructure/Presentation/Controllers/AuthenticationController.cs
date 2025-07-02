@@ -16,7 +16,7 @@ namespace Presentation.Controllers
     {
         //Register End Point for driver
         [HttpPost("register/driver")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> RegisterDriver([FromBody] DriverRegisterDTO driverDto)
         {
             var userDto = await _authService.DriverRegisterAsync(driverDto);
