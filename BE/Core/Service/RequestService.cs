@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DomainLayer.Contracts;
 using DomainLayer.Models.Request_Module;
+using Microsoft.EntityFrameworkCore;
 using Service.Mapping;
 using ServiceAbstraction;
 using Shared;
@@ -21,11 +22,24 @@ namespace Service
             var requests = await _requestRepo.GetAllWithIncludeData();
             return requests.Select(r =>r.ToRequestDTO());
         }
+        public async Task<IEnumerable<RequestDTO>> GetAvailableRequestsForDriverAsync()
+        {
+            var requests = _requestRepo.GetAvailableRequestsForDriverAsync();
+            var list = await requests.ToListAsync();
+            return list.Select(r => r.ToRequestDTO());
+        }
+
+        public async Task<IEnumerable<RequestDTO>> GetAvailableRequestsForNurseAsync()
+        {
+            var requests = _requestRepo.GetAvailableRequestsForNurseAsync();
+            var list = await requests.ToListAsync();
+            return list.Select(r => r.ToRequestDTO());
+        }
         public async Task<RequestDTO> UpdateRequest(UpdateRequestDTO requestDTO)
         {
             var updatedRequest = await _requestRepo.UpdateRequestAsync(requestDTO);
             if (updatedRequest == null)
-                throw new Exception("الطلب غير موجود");
+                throw new Exception("No Request With This Info");
 
             return updatedRequest.ToRequestDTO();
         }
