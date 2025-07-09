@@ -32,6 +32,8 @@ namespace NonEmergencyAmbulance
             builder.Services.AddScoped<IDriverRepository, DriverRepository>();
             builder.Services.AddScoped<INurseRepository, NurseRepository>();
             builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+            builder.Services.AddScoped<IRequestService, RequestService>();
+            builder.Services.AddScoped<IRequestRepository, RequestRepository>();
 
 
             builder.Services.AddScoped<DataSeed>();
