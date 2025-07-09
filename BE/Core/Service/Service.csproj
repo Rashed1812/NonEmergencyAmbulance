@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
-    <ProjectReference Include="..\ServiceAbstraction\ServiceAbstraction.csproj" />
+    <Compile Remove="Mapping Factory\**" />
+    <EmbeddedResource Remove="Mapping Factory\**" />
+    <None Remove="Mapping Factory\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping Factory\" />
+    <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
+    <ProjectReference Include="..\ServiceAbstraction\ServiceAbstraction.csproj" />
   </ItemGroup>
 
   <ItemGroup>

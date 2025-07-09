@@ -9,5 +9,6 @@ namespace DomainLayer.Contracts
 {
     public interface IPatientRepository : IGenericRepository<Patient>
     {
+        Task<Patient?> GetPatientByUserIdAsync(string userId);
     }
 }

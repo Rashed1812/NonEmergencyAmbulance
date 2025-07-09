@@ -24,7 +24,7 @@ namespace Presentation.Controllers
         }
         //Register End Point for nurse
         [HttpPost("register/nurse")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> RegisterNurse([FromBody] NurseRegisterDTO nurseDto)
         {
             var userDto = await _authService.NurseRegisterAsync(nurseDto);

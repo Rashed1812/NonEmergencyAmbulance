@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Models.Request_Module
+namespace Shared
 {
     public enum RequestStatus
     {
