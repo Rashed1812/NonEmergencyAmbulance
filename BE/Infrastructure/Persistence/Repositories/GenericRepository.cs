@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DomainLayer.Contracts;
+using Microsoft.EntityFrameworkCore;
 using Persistence.Data;
 
 namespace Persistence.Repositories
@@ -15,20 +16,21 @@ namespace Persistence.Repositories
         public void Delete(TEntity entity) => _dbContext.Set<TEntity>().Remove(entity);
 
         public async Task SaveChangesAsync() => await _dbContext.SaveChangesAsync();
-        public Task<IEnumerable<TEntity>> GetAllAsync()
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _dbContext.Set<TEntity>().ToListAsync();
         }
 
-        public Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _dbContext.Set<TEntity>().FindAsync(id);
         }
 
 
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<TEntity>().Update(entity);
+            _dbContext.SaveChanges();
         }
 
         public void UpdateAsync(TEntity entity)

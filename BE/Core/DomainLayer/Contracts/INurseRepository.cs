@@ -9,6 +9,6 @@ namespace DomainLayer.Contracts
 {
     public interface INurseRepository : IGenericRepository<Nurse>
     {
-
+        Task<IEnumerable<Nurse>> GetAvailableNursesAsync();
     }
 }

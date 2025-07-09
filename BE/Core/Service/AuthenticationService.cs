@@ -89,7 +89,8 @@ namespace Service
                 FullName = nurseDto.FullName,
                 UserName = nurseDto.Email,
                 Email = nurseDto.Email,
-                PhoneNumber = nurseDto.PhoneNumber
+                PhoneNumber = nurseDto.PhoneNumber,
+                
             };
             var result = await _userManager.CreateAsync(nurseUser, nurseDto.Password);
             if (!result.Succeeded)
@@ -185,6 +186,7 @@ namespace Service
         {
             throw new NotImplementedException();
         }
+
         private async Task<string> CreateTokenAsync(ApplicationUser user)
         {
             var claims = new List<Claim>

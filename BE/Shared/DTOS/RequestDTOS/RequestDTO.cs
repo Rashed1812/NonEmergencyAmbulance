@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DomainLayer.Models.Identity_Module;
-using DomainLayer.Models.Trip_Module;
-using Shared;
 
-namespace DomainLayer.Models.Request_Module
+namespace Shared.DTOS.RequestDTOS
 {
-    public class Request
+    public class RequestDTO
     {
         public int RequestId { get; set; }
         public DateTime RequestDate { get; set; }
@@ -21,11 +18,17 @@ namespace DomainLayer.Models.Request_Module
         public string Notes { get; set; }
         public int AssignedAmbulanceId { get; set; }
         public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+        public string? PatientName { get; set; }
+        public string? PatientPhone { get; set; }
+        public string? PatientAddress { get; set; }
+        public string? PatientImageUrl { get; set; }
         public int? DriverId { get; set; }
-        public Driver Driver { get; set; }
+        public string? DriverName { get; set; }
+        public string? DriverPhone { get; set; }
+
+        // Nurse Info
         public int? NurseId { get; set; }
-        public Nurse Nurse { get; set; }
-        public Trip Trip { get; set; }
+        public string? NurseName { get; set; }
+        public string? NursePhone { get; set; }
     }
 }

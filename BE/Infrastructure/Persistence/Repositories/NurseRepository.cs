@@ -16,5 +16,10 @@ namespace Persistence.Repositories
         {
             _dbContext = dbContext;
         }
+
+        public Task<IEnumerable<Nurse>> GetAvailableNursesAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

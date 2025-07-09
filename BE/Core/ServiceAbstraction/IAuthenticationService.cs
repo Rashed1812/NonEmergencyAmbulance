@@ -28,6 +28,5 @@ namespace ServiceAbstraction
         Task<UserDTO> GetCurrentUserAsync(string email);
         //Check Email
         Task<bool> IsEmailExistAsync(string email);
-
     }
 }
