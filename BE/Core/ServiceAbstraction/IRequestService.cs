@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shared.DTOS.RequestDTOS;
+using Shared.DTOS.TripDTOs;
 
 namespace ServiceAbstraction
 {
@@ -18,5 +19,6 @@ namespace ServiceAbstraction
         Task<AssignUpdateRequestDTO?> UpdateStatusAsync(UpdateRequestStatusDTO dto);
         public Task<RequestDTO?> UpdateRequest(UpdateRequestDTO requestDTO);
         public Task<RequestDTO?> GetRequestById(RequestDTO requestDTO);
+        Task<TripDTO?> ConfirmPatientAsync(int requestId);
     }
 }
