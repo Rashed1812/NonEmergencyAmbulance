@@ -34,6 +34,7 @@ namespace NonEmergencyAmbulance
             builder.Services.AddScoped<IPatientRepository, PatientRepository>();
             builder.Services.AddScoped<IRequestService, RequestService>();
             builder.Services.AddScoped<IRequestRepository, RequestRepository>();
+            builder.Services.AddScoped<ITripRepository, TripRepository>();
 
 
             builder.Services.AddScoped<DataSeed>();

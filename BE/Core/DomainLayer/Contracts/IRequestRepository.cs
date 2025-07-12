@@ -19,5 +19,6 @@ namespace DomainLayer.Contracts
         public Task<Request?> UpdateRequestStatuAsync(int requestId, RequestStatus status);
         public Task<Request?> AddDriverToRequestAsync(int requestId,int driverId);
         public Task<Request?> AddNurseToRequestAsync(int requestId,int nurseId);
+        public Task<bool> UpdatePatientConfirmed(int requestId);
     }
 }

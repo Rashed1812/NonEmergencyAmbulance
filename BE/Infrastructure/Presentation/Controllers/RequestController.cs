@@ -83,5 +83,14 @@ namespace Presentation.Controllers
             if (result == null) return NotFound();
             return Ok(result);
         }
+
+        [HttpPost("confirm-request/{requestId}")]
+        public async Task<IActionResult> ConfirmRequestByPatient(int requestId)
+        {
+            var tripDto = await _requestService.ConfirmPatientAsync(requestId);
+            if (tripDto == null)
+                return NotFound();
+            return Ok(tripDto);
+        }
     }
 }

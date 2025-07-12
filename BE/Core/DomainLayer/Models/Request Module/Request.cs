@@ -19,6 +19,7 @@ namespace DomainLayer.Models.Request_Module
         public string EmergencyType { get; set; }
         public RequestStatus Status { get; set; }
         public string Notes { get; set; }
+        public bool PatientConfirmed { get; set; } = false;
         public int AssignedAmbulanceId { get; set; }
         public int PatientId { get; set; }
         public Patient Patient { get; set; }

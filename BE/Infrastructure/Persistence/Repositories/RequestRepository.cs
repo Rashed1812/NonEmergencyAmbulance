@@ -119,6 +119,21 @@ namespace Persistence.Repositories
                 .Include(r => r.Nurse).ThenInclude(n => n.User)
                 .FirstOrDefaultAsync(r => r.RequestId == requestId);
         }
+
+        public async Task<bool> UpdatePatientConfirmed(int requestId)
+        {
+            var request = await _dbContext.Requests.FindAsync(requestId);
+            if (request == null)
+                return false;
+
+            if (request.PatientConfirmed)
+                return true;
+
+            request.PatientConfirmed = true;
+            await _dbContext.SaveChangesAsync();
+
+            return true;
+        }
         #endregion
 
     }

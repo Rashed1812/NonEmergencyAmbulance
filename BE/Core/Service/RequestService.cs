@@ -10,10 +10,11 @@ using Service.Mapping;
 using ServiceAbstraction;
 using Shared;
 using Shared.DTOS.RequestDTOS;
+using Shared.DTOS.TripDTOs;
 
 namespace Service
 {
-    public class RequestService(IRequestRepository _requestRepo ,IPatientRepository _patientRepo) : IRequestService
+    public class RequestService(IRequestRepository _requestRepo ,IPatientRepository _patientRepo ,ITripService _tripService) : IRequestService
     {
         //Add New Request
 
@@ -108,6 +109,21 @@ namespace Service
 
             var createdRequest = await _requestRepo.GetByIdWithReletadData(newRequest.RequestId);
             return createdRequest.ToRequestDTO();
+        }
+
+        public async Task<TripDTO?> ConfirmPatientAsync(int requestId)
+        {
+            var request = await _requestRepo.GetByIdAsync(requestId);
+            if (request == null)
+                return null;
+
+            if (!request.PatientConfirmed)
+            {
+                request.PatientConfirmed = true;
+                await _requestRepo.SaveChangesAsync();
+            }
+            var tripDto = await _tripService.CreateTripFromRequestAsync(requestId);
+            return tripDto;
         }
     }
 }
