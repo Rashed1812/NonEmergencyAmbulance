@@ -38,7 +38,8 @@ namespace Persistence.Repositories
         {
             var requestData = _dbContext.Requests
                 .Where(r => r.Status == RequestStatus.Pending && r.DriverId == null)
-                .Include(r => r.Patient);
+                .Include(r => r.Patient)
+                .ThenInclude(p => p.User);
 
             return requestData;
         }
@@ -47,7 +48,8 @@ namespace Persistence.Repositories
         {
             var requestData = _dbContext.Requests
                     .Where(r => r.Status == RequestStatus.Pending && r.NurseId == null)
-                    .Include(r => r.Patient);
+                    .Include(r => r.Patient)
+                    .ThenInclude(p => p.User);
             return requestData;
         }
         #endregion
@@ -64,6 +66,7 @@ namespace Persistence.Repositories
 
             return await _dbContext.Requests
                 .Include(r => r.Patient)
+                .ThenInclude(p => p.User)
                 .FirstOrDefaultAsync(r => r.RequestId == requestId);
         }
 
@@ -78,6 +81,7 @@ namespace Persistence.Repositories
 
             return await _dbContext.Requests
                 .Include(r => r.Patient)
+                .ThenInclude(p => p.User)
                 .FirstOrDefaultAsync(r => r.RequestId == requestId);
         }
         public async Task<Request?> UpdateRequestStatuAsync(int requestId, RequestStatus status)
@@ -91,6 +95,7 @@ namespace Persistence.Repositories
 
             return await _dbContext.Requests
                 .Include(r => r.Patient)
+                .ThenInclude(p => p.User)
                 .FirstOrDefaultAsync(r => r.RequestId == requestId);
         }
 

@@ -85,7 +85,6 @@ namespace Persistence.Data.Data_Seed
                     if (list is not null && list.Any())
                         await _DbContext.Set<Trip>().AddRangeAsync(list);
                 }
-
                 await _DbContext.SaveChangesAsync();
             }
             catch (Exception ex)
