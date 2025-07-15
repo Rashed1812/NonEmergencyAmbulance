@@ -1,11 +1,10 @@
 [
-    {
-        "Address": "123 Main St, Anytown, USA",
-        "MedicalHistory": "None",
-        "Gender": 0,
-        "DateOfBirth": "1990-01-01T00:00:00Z",
-        "PhoneNumber": "+15551234567",
-        "UserId": "79a624cb-fede-4a04-a43d-14f98f7ac980"
-    }
+  {
+    "Address": "123 Main St, Anytown, USA",
+    "MedicalHistory": "None",
+    "Gender": 0,
+    "DateOfBirth": "1990-01-01T00:00:00Z",
+    "PhoneNumber": "+15551234567",
+    "UserId": "79a624cb-fede-4a04-a43d-14f98f7ac980"
+  }
 ]
-
