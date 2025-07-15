@@ -1,9 +1,8 @@
 [
-    {
-        "LicenseNumber": "DRV12345",
-        "PhoneNumber": "+15559876543",
-        "IsAvailable": true,
-        "UserId": "243061b9-ea0c-4bf8-8643-c05ffd0f5133"
-    }
+  {
+    "LicenseNumber": "DRV12345",
+    "PhoneNumber": "+15559876543",
+    "IsAvailable": true,
+    "UserId": "243061b9-ea0c-4bf8-8643-c05ffd0f5133"
+  }
 ]
-

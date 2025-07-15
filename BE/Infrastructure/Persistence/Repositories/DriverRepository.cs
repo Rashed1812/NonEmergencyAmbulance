@@ -18,5 +18,21 @@ namespace Persistence.Repositories
         {
             _dbContext = dbContext;
         }
+
+        public async Task<IEnumerable<Driver>> GetAllWithRelatedData()
+        {
+            return await _dbContext.Drivers
+                .Include(d => d.User)
+                .ToListAsync();
+        }
+
+        public async Task<Driver> GetByIdWithRelatedData(int id)
+        {
+            var driver = await _dbContext.Drivers
+                .Include(d => d.User)
+                .FirstOrDefaultAsync(d => d.Id == id);
+
+            return driver;
+        }
     }
 }
