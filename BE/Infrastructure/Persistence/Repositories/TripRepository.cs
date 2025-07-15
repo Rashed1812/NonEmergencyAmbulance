@@ -18,7 +18,6 @@ namespace Persistence.Repositories
             _dbContext = dbContext;
             
         }
-
         public async Task<IEnumerable<Trip>> GetAllWithRelatedData()
         {
             return await _dbContext.Trips

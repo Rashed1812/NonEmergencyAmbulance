@@ -13,7 +13,7 @@ using Shared.DTOS.TripDTOs;
 
 namespace Service
 {
-    public class TripService(ITripRepository _tripRepo ,IRequestRepository _requestRepo) : ITripService
+    public class TripService(ITripRepository _tripRepo ,IRequestRepository _requestRepo , IDistanceService _distanceService ,ITripPriceCalculator _priceCalculator) : ITripService
     {
         public async Task<TripDTO> CreateTripFromRequestAsync(int requestId)
         {
