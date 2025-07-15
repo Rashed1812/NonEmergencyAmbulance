@@ -9,5 +9,7 @@ namespace DomainLayer.Contracts
 {
     public interface IDriverRepository :IGenericRepository<Driver>
     {
+        Task<IEnumerable<Driver>> GetAllWithRelatedData();
+        Task<Driver> GetByIdWithRelatedData(int id);
     }
 }

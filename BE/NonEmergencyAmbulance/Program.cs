@@ -40,6 +40,10 @@ namespace NonEmergencyAmbulance
             builder.Services.AddScoped<IDistanceService, HaversineDistanceService>();
             builder.Services.AddScoped<ITripPriceCalculator, TripPriceCalculator>();
 
+            builder.Services.AddScoped<INurseService, NurseService>();
+            builder.Services.AddScoped<IDriverService, DriverService>();
+
+
 
             builder.Services.AddScoped<DataSeed>();
 

@@ -1,9 +1,8 @@
 [
-    {
-        "Certification": "RN-12345",
-        "IsAvailable": true,
-        "PhoneNumber": "+15551112222",
-        "UserId": "65612a81-54b4-4ad3-8741-a2714b49dde4"
-    }
+  {
+    "LicenseNumber": "DRV12345",
+    "PhoneNumber": "+15559876543",
+    "IsAvailable": true,
+    "UserId": "243061b9-ea0c-4bf8-8643-c05ffd0f5133"
+  }
 ]
-
