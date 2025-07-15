@@ -32,6 +32,13 @@ namespace NonEmergencyAmbulance
             builder.Services.AddScoped<IDriverRepository, DriverRepository>();
             builder.Services.AddScoped<INurseRepository, NurseRepository>();
             builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+            builder.Services.AddScoped<IRequestService, RequestService>();
+            builder.Services.AddScoped<IRequestRepository, RequestRepository>();
+            builder.Services.AddScoped<ITripRepository, TripRepository>();
+            builder.Services.AddScoped<ITripService, TripService>();
+            builder.Services.AddScoped<IGeocodingService, NominatimGeocodingService>();
+            builder.Services.AddScoped<IDistanceService, HaversineDistanceService>();
+            builder.Services.AddScoped<ITripPriceCalculator, TripPriceCalculator>();
 
             builder.Services.AddScoped<INurseService, NurseService>();
             builder.Services.AddScoped<IDriverService, DriverService>();

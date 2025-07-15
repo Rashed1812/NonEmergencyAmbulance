@@ -9,8 +9,10 @@ namespace ServiceAbstraction
 {
     public interface IDriverService
     {
+
         Task<IEnumerable<DriverDTO>> GetAllDriversAsync();
         Task<DriverDTO> GetDriverByIdAsync(int id);
+
 
     }
 }

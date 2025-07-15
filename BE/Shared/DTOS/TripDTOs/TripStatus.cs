@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Models.Trip_Module
+namespace Shared.DTOS.TripDTOs
 {
     public enum TripStatus
     {

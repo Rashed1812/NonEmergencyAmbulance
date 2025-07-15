@@ -1,0 +1,1035 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F158A1F-0377-4404-BEEC-08B799EB92E9}|Core\\Service\\Service.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F158A1F-0377-4404-BEEC-08B799EB92E9}|Core\\Service\\Service.csproj|solutionrelative:core\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\dtos\\registeration\\driverregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\registeration\\driverregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\identity module\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\identity module\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\applicationuser.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\applicationuser.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\driver.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\driver.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1A4CEA-9D8E-45D8-A0FA-C2E3B25A4318}|Infrastructure\\Presentation\\Presentation.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1A4CEA-9D8E-45D8-A0FA-C2E3B25A4318}|Infrastructure\\Presentation\\Presentation.csproj|solutionrelative:infrastructure\\presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEC513A-4CF7-40E6-8760-C60F943B9847}|Core\\ServiceAbstraction\\ServiceAbstraction.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\serviceabstraction\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEC513A-4CF7-40E6-8760-C60F943B9847}|Core\\ServiceAbstraction\\ServiceAbstraction.csproj|solutionrelative:core\\serviceabstraction\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|e:\\non emergency project\\nonemergencyambulance\\nonemergencyambulance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|solutionrelative:nonemergencyambulance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\nurse.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\nurse.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\admin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\admin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\applicatiosuserseedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\applicatiosuserseedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\contracts\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\contracts\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|e:\\non emergency project\\nonemergencyambulance\\nonemergencyambulance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|solutionrelative:nonemergencyambulance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\dtos\\registeration\\patientregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\registeration\\patientregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\identity module\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\identity module\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\dtos\\registeration\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\registeration\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\dtos\\registeration\\nurseregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\registeration\\nurseregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\identity module\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\identity module\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\repositories\\nurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\nurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\contracts\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\contracts\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\contracts\\inurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\contracts\\inurserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEC513A-4CF7-40E6-8760-C60F943B9847}|Core\\ServiceAbstraction\\ServiceAbstraction.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\serviceabstraction\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEC513A-4CF7-40E6-8760-C60F943B9847}|Core\\ServiceAbstraction\\ServiceAbstraction.csproj|solutionrelative:core\\serviceabstraction\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|e:\\non emergency project\\nonemergencyambulance\\nonemergencyambulance\\customexceptionhandlemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|solutionrelative:nonemergencyambulance\\customexceptionhandlemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\error models\\errortoreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\error models\\errortoreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|e:\\non emergency project\\nonemergencyambulance\\shared\\dtos\\registeration\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903E037-4C2F-444B-8FF5-F880AAB1CC40}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\registeration\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\identity module\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\identity module\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F158A1F-0377-4404-BEEC-08B799EB92E9}|Core\\Service\\Service.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F158A1F-0377-4404-BEEC-08B799EB92E9}|Core\\Service\\Service.csproj|solutionrelative:core\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|e:\\non emergency project\\nonemergencyambulance\\nonemergencyambulance\\to_do_list.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06C38655-F255-4BAB-ADCF-E3F83E4F5BC0}|NonEmergencyAmbulance\\NonEmergencyAmbulance.csproj|solutionrelative:nonemergencyambulance\\to_do_list.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\trip.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\trip.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\request.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\request.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\ambulance.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\ambulance.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\data seed\\filesdata\\patient.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\data seed\\filesdata\\patient.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\identity module\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\identity module\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\request module\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\request module\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\ambulance module\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\ambulance module\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\tripconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\tripconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\ambulanceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\ambulanceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\trip module\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\trip module\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\driverconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\driverconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\nurseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\nurseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\adminconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\adminconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\requestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\requestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\configurations\\patientconfiguration .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\configurations\\patientconfiguration .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\ambulance module\\ambulancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\ambulance module\\ambulancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\ambulance module\\ambulancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\ambulance module\\ambulancestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\request module\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\request module\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|e:\\non emergency project\\nonemergencyambulance\\core\\domainlayer\\models\\trip module\\tripstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E30E07-0E5C-46AF-B477-156D50F2BD24}|Core\\DomainLayer\\DomainLayer.csproj|solutionrelative:core\\domainlayer\\models\\trip module\\tripstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|e:\\non emergency project\\nonemergencyambulance\\infrastructure\\persistence\\data\\migrations\\20250616235650_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30A2A1E-352F-4CAB-B9A1-4FF6CC530E6C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\data\\migrations\\20250616235650_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\ApplicationUser.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\ApplicationUser.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\ApplicationUser.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\ApplicationUser.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:26:33.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Presentation\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Infrastructure\\Presentation\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:45:57.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Core\\Service\\AuthenticationService.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\Service\\AuthenticationService.cs*",
+              "RelativeToolTip": "Core\\Service\\AuthenticationService.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAnwDAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:33:43.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Driver.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Driver.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Driver.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Driver.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Driver.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:27:01.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DriverRegisterDTO.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\DriverRegisterDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOS\\Registeration\\DriverRegisterDTO.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\DriverRegisterDTO.cs",
+              "RelativeToolTip": "Shared\\DTOS\\Registeration\\DriverRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:02:01.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Identity Module\\ApplicationUser.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\ApplicationUser.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Identity Module\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:56:12.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\ServiceAbstraction\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Core\\ServiceAbstraction\\IAuthenticationService.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\ServiceAbstraction\\IAuthenticationService.cs",
+              "RelativeToolTip": "Core\\ServiceAbstraction\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:50:47.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\appsettings.json",
+              "RelativeDocumentMoniker": "NonEmergencyAmbulance\\appsettings.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\appsettings.json",
+              "RelativeToolTip": "NonEmergencyAmbulance\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T23:42:32.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicatiosUserSeedModel.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\ApplicatiosUserSeedModel.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\ApplicatiosUserSeedModel.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\ApplicatiosUserSeedModel.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\ApplicatiosUserSeedModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T14:11:06.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Nurse.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Nurse.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Nurse.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Nurse.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Nurse.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:27:07.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Admin.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Admin.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Admin.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Admin.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T13:10:21.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\PatientRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:23:11.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Contracts\\IPatientRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\IPatientRepository.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Contracts\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:22:27.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\Program.cs",
+              "RelativeDocumentMoniker": "NonEmergencyAmbulance\\Program.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\Program.cs",
+              "RelativeToolTip": "NonEmergencyAmbulance\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:34:18.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientRegisterDTO.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\PatientRegisterDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOS\\Registeration\\PatientRegisterDTO.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\PatientRegisterDTO.cs",
+              "RelativeToolTip": "Shared\\DTOS\\Registeration\\PatientRegisterDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvxAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:02:31.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Patient.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Identity Module\\Patient.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Patient.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Identity Module\\Patient.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:58:56.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOS\\Registeration\\UserDTO.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\UserDTO.cs",
+              "RelativeToolTip": "Shared\\DTOS\\Registeration\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:53:50.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\Gender.cs",
+              "RelativeDocumentMoniker": "Shared\\Gender.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\Gender.cs",
+              "RelativeToolTip": "Shared\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:27:43.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NurseRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\NurseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\NurseRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\NurseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\NurseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:46:22.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDriverRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\IDriverRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Contracts\\IDriverRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\IDriverRepository.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Contracts\\IDriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:09:26.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "INurseRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\INurseRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Contracts\\INurseRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\INurseRepository.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Contracts\\INurseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:45:45.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NurseRegisterDTO.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\NurseRegisterDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOS\\Registeration\\NurseRegisterDTO.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\NurseRegisterDTO.cs",
+              "RelativeToolTip": "Shared\\DTOS\\Registeration\\NurseRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:01:47.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DriverRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\DriverRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\DriverRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\DriverRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\DriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:21:12.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\GenericRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:11:56.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Nurse.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Nurse.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Identity Module\\Nurse.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Nurse.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Identity Module\\Nurse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:59:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IDriverService.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\ServiceAbstraction\\IDriverService.cs",
+              "RelativeDocumentMoniker": "Core\\ServiceAbstraction\\IDriverService.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\ServiceAbstraction\\IDriverService.cs",
+              "RelativeToolTip": "Core\\ServiceAbstraction\\IDriverService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:20:34.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Contracts\\IGenericRepository.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Contracts\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Contracts\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:33:00.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Exceptions\\ValidationException.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Exceptions\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:18:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DTOS\\Registeration\\LoginDTO.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\DTOS\\Registeration\\LoginDTO.cs",
+              "RelativeToolTip": "Shared\\DTOS\\Registeration\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:05:04.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomExceptionHandleMiddleware.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\CustomExceptionHandleMiddleware.cs",
+              "RelativeDocumentMoniker": "NonEmergencyAmbulance\\CustomExceptionHandleMiddleware.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\CustomExceptionHandleMiddleware.cs",
+              "RelativeToolTip": "NonEmergencyAmbulance\\CustomExceptionHandleMiddleware.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwD0AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:27:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ErrorToReturn.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\Error Models\\ErrorToReturn.cs",
+              "RelativeDocumentMoniker": "Shared\\Error Models\\ErrorToReturn.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Shared\\Error Models\\ErrorToReturn.cs",
+              "RelativeToolTip": "Shared\\Error Models\\ErrorToReturn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:31:15.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Driver.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Identity Module\\Driver.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Driver.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Identity Module\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:59:08.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:32:48.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnAuthorizedException.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\UnAuthorizedException.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Exceptions\\UnAuthorizedException.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\UnAuthorizedException.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Exceptions\\UnAuthorizedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:32:19.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Core\\Service\\Service.csproj",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\Service\\Service.csproj",
+              "RelativeToolTip": "Core\\Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T18:50:07.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\AssemblyReference.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\AssemblyReference.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\AssemblyReference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:15:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:33:01.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T18:28:47.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Request.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Request.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Request.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Request.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Request.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:27:15.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Patient.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Patient.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Patient.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Patient.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Patient.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:27:11.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Ambulance.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Ambulance.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Ambulance.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Ambulance.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Ambulance.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:26:22.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "To_Do_List.txt",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\To_Do_List.txt",
+              "RelativeDocumentMoniker": "NonEmergencyAmbulance\\To_Do_List.txt",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\NonEmergencyAmbulance\\To_Do_List.txt",
+              "RelativeToolTip": "NonEmergencyAmbulance\\To_Do_List.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-16T19:24:03.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Trip.json",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Trip.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Trip.json",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Trip.json",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Data Seed\\FilesData\\Trip.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:27:21.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250616235650_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Migrations\\20250616235650_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Migrations\\20250616235650_InitialCreate.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Migrations\\20250616235650_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Migrations\\20250616235650_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:56:50.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AmbulanceConfiguration.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\AmbulanceConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\AmbulanceConfiguration.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\AmbulanceConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\AmbulanceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:00:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Ambulance.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Ambulance Module\\Ambulance.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Ambulance Module\\Ambulance.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Ambulance Module\\Ambulance.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Ambulance Module\\Ambulance.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:56:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TripConfiguration.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\TripConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\TripConfiguration.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\TripConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\TripConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:02:21.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Trip Module\\Trip.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Trip Module\\Trip.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Trip Module\\Trip.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Trip Module\\Trip.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:52:01.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DriverConfiguration.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\DriverConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\DriverConfiguration.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\DriverConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\DriverConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:58:40.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "NurseConfiguration.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\NurseConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\NurseConfiguration.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\NurseConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\NurseConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:00:03.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AdminConfiguration.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\AdminConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\AdminConfiguration.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\AdminConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\AdminConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:57:48.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RequestConfiguration.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\RequestConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\RequestConfiguration.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\RequestConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\RequestConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:54:59.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PatientConfiguration .cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\PatientConfiguration .cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Data\\Configurations\\PatientConfiguration .cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Infrastructure\\Persistence\\Data\\Configurations\\PatientConfiguration .cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Data\\Configurations\\PatientConfiguration .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:51:17.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Request.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Request Module\\Request.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Request Module\\Request.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Request Module\\Request.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Request Module\\Request.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T20:12:40.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Request Module\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Request Module\\RequestStatus.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Request Module\\RequestStatus.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Request Module\\RequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T20:18:43.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Admin.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Identity Module\\Admin.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Identity Module\\Admin.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Identity Module\\Admin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:59:16.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TripStatus.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Trip Module\\TripStatus.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Trip Module\\TripStatus.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Trip Module\\TripStatus.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Trip Module\\TripStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:53:10.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AmbulanceStatus.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceStatus.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceStatus.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceStatus.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:48:01.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AmbulanceType.cs",
+              "DocumentMoniker": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceType.cs",
+              "RelativeDocumentMoniker": "Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceType.cs",
+              "ToolTip": "E:\\Non Emergency Project\\NonEmergencyAmbulance\\Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceType.cs",
+              "RelativeToolTip": "Core\\DomainLayer\\Models\\Ambulance Module\\AmbulanceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:33:25.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

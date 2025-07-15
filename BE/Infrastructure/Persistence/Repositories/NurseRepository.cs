@@ -39,7 +39,7 @@ namespace Persistence.Repositories
             return await _dbContext.Nurses.Include(n => n.User).Where(n => n.IsAvailable).ToListAsync();
         }
 
-   
+  
 
     }
 }

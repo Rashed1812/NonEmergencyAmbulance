@@ -14,7 +14,5 @@ namespace DomainLayer.Contracts
         Task<IEnumerable<Nurse>> GetAllWithRelatedData();
         Task<Nurse> GetByIdWithRelatedData(int id);
         Task<IEnumerable<Nurse>> GetAvailableAsync();
-
-
     }
 }
