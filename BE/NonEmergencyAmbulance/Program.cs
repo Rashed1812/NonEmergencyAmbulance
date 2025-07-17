@@ -42,7 +42,19 @@ namespace NonEmergencyAmbulance
 
             builder.Services.AddScoped<INurseService, NurseService>();
             builder.Services.AddScoped<IDriverService, DriverService>();
-
+            builder.Services.AddScoped<IAmbulanceRepository, AmbulanceRepository>();
+            builder.Services.AddScoped<IAmbulanceService, AmbulanceService>();
+            builder.Services.AddScoped<IPatientService, PatientService>();
+            builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+            builder.Services.AddScoped<IDistanceService, HaversineDistanceService>();
+            builder.Services.AddScoped<IRatingRepository, RatingRepository>();
+            builder.Services.AddScoped<IRatingService, RatingService>();
+            builder.Services.AddScoped<IReportRepository, ReportRepository>();
+            builder.Services.AddScoped<IReportService, ReportService>();
+            builder.Services.AddHttpClient<IGeocodingService, NominatimGeocodingService>(client =>
+            {
+                client.DefaultRequestHeaders.UserAgent.ParseAdd("NonEmergencyAmbulanceApp/1.0");
+            });
 
 
             builder.Services.AddScoped<DataSeed>();

@@ -11,7 +11,7 @@ namespace Presentation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RequestController(IRequestService _requestService) : ControllerBase
+    public class RequestController(IRequestService _requestService , IDistanceService _distanceService) : ControllerBase
     {
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -84,6 +84,14 @@ namespace Presentation.Controllers
             return Ok(result);
         }
 
+        [HttpPut("cancel/{id}")]
+        public async Task<IActionResult> Cancel(int id)
+        {
+            var result = await _requestService.CancelRequestAsync(id);
+            if (!result) return NotFound();
+            return Ok();
+        }
+
         [HttpPost("confirm-request/{requestId}")]
         public async Task<IActionResult> ConfirmRequestByPatient(int requestId)
         {
@@ -91,6 +99,12 @@ namespace Presentation.Controllers
             if (tripDto == null)
                 return NotFound();
             return Ok(tripDto);
+        }
+        [HttpGet("distance")]
+        public async Task<IActionResult> GetDistance([FromQuery] string from, [FromQuery] string to)
+        {
+            var km = await _distanceService.CalculateKMAsync(from, to);
+            return Ok(new { Distance = km });
         }
     }
 }

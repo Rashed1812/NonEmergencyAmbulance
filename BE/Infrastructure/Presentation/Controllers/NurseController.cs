@@ -15,10 +15,12 @@ namespace Presentation.Controllers
     public class NurseController : ControllerBase  
     {
         private readonly INurseService nurseService;
+        private readonly IAuthenticationService _authService;
 
-        public NurseController(INurseService nurseService)
+        public NurseController(INurseService nurseService, IAuthenticationService authService)
         {
             this.nurseService = nurseService;
+            _authService = authService;
         }
 
         [HttpGet]
@@ -41,6 +43,13 @@ namespace Presentation.Controllers
         {
             await nurseService.UpdateNurseAsync(id, dto);
             return NoContent();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] Shared.DTOS.Registeration.NurseRegisterDTO dto)
+        {
+            var result = await _authService.NurseRegisterAsync(dto);
+            return Ok(result);
         }
 
         [HttpGet("available")]

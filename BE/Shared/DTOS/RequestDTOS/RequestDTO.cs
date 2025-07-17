@@ -25,6 +25,8 @@ namespace Shared.DTOS.RequestDTOS
         public int? DriverId { get; set; }
         public string? DriverName { get; set; }
         public string? DriverPhone { get; set; }
+        public string? AmbulancePlateNumber { get; set; }
+        public string? AmbulanceType { get; set; }
 
         // Nurse Info
         public int? NurseId { get; set; }

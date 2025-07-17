@@ -22,7 +22,9 @@ namespace Persistence.Repositories
         {
             return await _dbContext.Trips
                     .Include(t => t.Driver)
+                    .ThenInclude(d => d.User)
                     .Include(t => t.Nurse)
+                    .ThenInclude(n => n.User)
                     .Include(t => t.Ambulance)
                     .Include(t => t.Request)
                     .ToListAsync();
@@ -31,7 +33,9 @@ namespace Persistence.Repositories
         {
             return await _dbContext.Trips
                 .Include(t => t.Driver)
+                .ThenInclude(d => d.User)
                 .Include(t => t.Nurse)
+                .ThenInclude(n => n.User)
                 .Include(t => t.Ambulance)
                 .Include(t => t.Request)
                 .FirstOrDefaultAsync(t => t.TripId == id);
@@ -41,6 +45,8 @@ namespace Persistence.Repositories
         {
             return await _dbContext.Trips
                 .Where(t => t.DriverId == driverId)
+                .Include(t => t.Driver).ThenInclude(d => d.User)
+                .Include(t => t.Nurse).ThenInclude(n => n.User)
                 .Include(t => t.Request)
                 .ToListAsync();
         }
@@ -50,6 +56,8 @@ namespace Persistence.Repositories
         {
             return await _dbContext.Trips
                 .Where(t => t.NurseId == nurseId)
+                .Include(t => t.Driver).ThenInclude(d => d.User)
+                .Include(t => t.Nurse).ThenInclude(n => n.User)
                 .Include(t => t.Request)
                 .ToListAsync();
         }
@@ -57,6 +65,10 @@ namespace Persistence.Repositories
         public async Task<Trip?> GetByRequestIdAsync(int requestId)
         {
             return await _dbContext.Trips
+                .Include(t => t.Driver).ThenInclude(d => d.User)
+                .Include(t => t.Nurse).ThenInclude(n => n.User)
+                .Include(t => t.Request)
+                .Include(t => t.Ambulance)
                 .FirstOrDefaultAsync(t => t.RequestId == requestId);
         }
     }

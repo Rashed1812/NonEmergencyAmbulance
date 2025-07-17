@@ -20,5 +20,6 @@ namespace ServiceAbstraction
         public Task<RequestDTO?> UpdateRequest(UpdateRequestDTO requestDTO);
         public Task<RequestDTO?> GetRequestById(RequestDTO requestDTO);
         Task<TripDTO?> ConfirmPatientAsync(int requestId);
+        Task<bool> CancelRequestAsync(int requestId);
     }
 }
