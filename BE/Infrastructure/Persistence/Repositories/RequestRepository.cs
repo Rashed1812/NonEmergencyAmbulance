@@ -139,6 +139,18 @@ namespace Persistence.Repositories
 
             return true;
         }
+        public async Task<bool> IsDriverDoubleBookedAsync(int driverId, DateTime scheduledDate)
+        {
+            return await _dbContext.Requests.AnyAsync(r => r.DriverId == driverId && r.ScheduledDate == scheduledDate && r.Status != RequestStatus.Cancelled);
+        }
+        public async Task<bool> IsNurseDoubleBookedAsync(int nurseId, DateTime scheduledDate)
+        {
+            return await _dbContext.Requests.AnyAsync(r => r.NurseId == nurseId && r.ScheduledDate == scheduledDate && r.Status != RequestStatus.Cancelled);
+        }
+        public async Task<bool> IsAmbulanceDoubleBookedAsync(int ambulanceId, DateTime scheduledDate)
+        {
+            return await _dbContext.Requests.AnyAsync(r => r.AssignedAmbulanceId == ambulanceId && r.ScheduledDate == scheduledDate && r.Status != RequestStatus.Cancelled);
+        }
         #endregion
 
     }

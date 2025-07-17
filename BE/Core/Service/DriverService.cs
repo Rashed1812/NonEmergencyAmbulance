@@ -55,5 +55,43 @@ namespace Service
 
             };
         }
+
+        public async Task<DriverDTO> UpdateDriverAsync(int id, DriverDTO dto)
+        {
+            var driver = await driverRepository.GetByIdAsync(id);
+            if (driver == null) return null;
+            driver.LicenseNumber = dto.LicenseNumber;
+            driver.PhoneNumber = dto.PhoneNumber;
+            driver.IsAvailable = dto.IsAvailable;
+            driver.UserId = dto.UserId;
+            driverRepository.Update(driver);
+            await driverRepository.SaveChangesAsync();
+            return new DriverDTO
+            {
+                Id = driver.Id,
+                LicenseNumber = driver.LicenseNumber,
+                IsAvailable = driver.IsAvailable,
+                PhoneNumber = driver.PhoneNumber,
+                UserId = driver.UserId,
+                UserFullName = driver.User?.FullName
+            };
+        }
+
+        public async Task<bool> DeleteDriverAsync(int id)
+        {
+            var driver = await driverRepository.GetByIdAsync(id);
+            if (driver == null) return false;
+            driverRepository.Delete(driver);
+            await driverRepository.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task ToggleAvailabilityAsync(int id, bool isAvailable)
+        {
+            var driver = await driverRepository.GetByIdAsync(id);
+            if (driver == null) throw new KeyNotFoundException("Driver not found");
+            driver.IsAvailable = isAvailable;
+            await driverRepository.SaveChangesAsync();
+        }
     }
 }

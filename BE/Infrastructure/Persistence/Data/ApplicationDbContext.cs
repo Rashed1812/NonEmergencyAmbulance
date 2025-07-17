@@ -26,6 +26,7 @@ namespace Persistence.Data
         public DbSet<Request> Requests { get; set; }
         public DbSet<Trip> Trips { get; set; }
         public DbSet<Ambulance> Ambulances { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

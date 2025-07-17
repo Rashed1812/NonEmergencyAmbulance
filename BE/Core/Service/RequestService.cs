@@ -14,8 +14,9 @@ using Shared.DTOS.TripDTOs;
 
 namespace Service
 {
-    public class RequestService(IRequestRepository _requestRepo ,IPatientRepository _patientRepo ,ITripService _tripService) : IRequestService
+    public class RequestService(IRequestRepository _requestRepo, IPatientRepository _patientRepo, ITripService _tripService, IAmbulanceRepository ambulanceRepository) : IRequestService
     {
+        private readonly IAmbulanceRepository _ambulanceRepository;
         //Add New Request
 
         public async Task<IEnumerable<RequestDTO>> GetAllRequestsWithRelatedData()
@@ -50,6 +51,16 @@ namespace Service
             var request = await _requestRepo.AddDriverToRequestAsync(assignDriverDTO.RequestId, assignDriverDTO.DriverId);
             if (request == null)
                 return null;
+
+            // Auto-assign ambulance linked to this driver
+            var ambulance = await _ambulanceRepository.GetAllWithRelatedData();
+            var driverAmbulance = ambulance.FirstOrDefault(a => a.DriverId == assignDriverDTO.DriverId);
+            if (driverAmbulance != null)
+            {
+                request.AssignedAmbulanceId = driverAmbulance.AmbulanceId;
+                await _requestRepo.SaveChangesAsync();
+            }
+
             if (request.NurseId != null)
             {
                 request.Status = RequestStatus.InProgress;
@@ -92,6 +103,13 @@ namespace Service
             if (patient == null)
                 throw new Exception("المريض غير موجود");
 
+            // Double booking validation
+            if (createRequestDTO.AssignedAmbulanceId > 0)
+            {
+                if (await _requestRepo.IsAmbulanceDoubleBookedAsync(createRequestDTO.AssignedAmbulanceId, createRequestDTO.ScheduledDate))
+                    throw new Exception("سيارة الإسعاف محجوزة في هذا الموعد!");
+            }
+
             var newRequest = new Request
             {
                 RequestDate = DateTime.UtcNow,
@@ -124,6 +142,15 @@ namespace Service
             }
             var tripDto = await _tripService.CreateTripFromRequestAsync(requestId);
             return tripDto;
+        }
+
+        public async Task<bool> CancelRequestAsync(int requestId)
+        {
+            var request = await _requestRepo.GetByIdWithReletadData(requestId);
+            if (request == null) return false;
+            request.Status = Shared.RequestStatus.Cancelled;
+            await _requestRepo.SaveChangesAsync();
+            return true;
         }
     }
 }

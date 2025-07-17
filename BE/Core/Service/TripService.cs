@@ -35,7 +35,7 @@ namespace Service
             {
                 RequestId = requestId,
                 StartTime = request.ScheduledDate,
-                EndTime = request.ScheduledDate.AddHours(1), // مؤقت
+                EndTime = request.ScheduledDate.AddHours(1),
                 DistanceKM = distance,
                 Price = price,
                 DriverId = request.DriverId.Value,

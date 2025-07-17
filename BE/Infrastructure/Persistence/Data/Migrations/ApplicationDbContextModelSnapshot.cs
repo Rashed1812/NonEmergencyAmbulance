@@ -317,6 +317,49 @@ namespace Persistence.Data.Migrations
                     b.ToTable("Requests");
                 });
 
+            modelBuilder.Entity("DomainLayer.Models.Trip_Module.Rating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DriverId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("NurseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TripId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DriverId");
+
+                    b.HasIndex("NurseId");
+
+                    b.HasIndex("PatientId");
+
+                    b.HasIndex("TripId");
+
+                    b.ToTable("Ratings");
+                });
+
             modelBuilder.Entity("DomainLayer.Models.Trip_Module.Trip", b =>
                 {
                     b.Property<int>("TripId")
@@ -575,6 +618,37 @@ namespace Persistence.Data.Migrations
                     b.Navigation("Nurse");
 
                     b.Navigation("Patient");
+                });
+
+            modelBuilder.Entity("DomainLayer.Models.Trip_Module.Rating", b =>
+                {
+                    b.HasOne("DomainLayer.Models.Identity_Module.Driver", "Driver")
+                        .WithMany()
+                        .HasForeignKey("DriverId");
+
+                    b.HasOne("DomainLayer.Models.Identity_Module.Nurse", "Nurse")
+                        .WithMany()
+                        .HasForeignKey("NurseId");
+
+                    b.HasOne("DomainLayer.Models.Identity_Module.Patient", "Patient")
+                        .WithMany()
+                        .HasForeignKey("PatientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DomainLayer.Models.Trip_Module.Trip", "Trip")
+                        .WithMany()
+                        .HasForeignKey("TripId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Driver");
+
+                    b.Navigation("Nurse");
+
+                    b.Navigation("Patient");
+
+                    b.Navigation("Trip");
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Trip_Module.Trip", b =>

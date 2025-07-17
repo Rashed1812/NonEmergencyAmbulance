@@ -13,8 +13,8 @@ namespace DomainLayer.Models.Ambulance_Module
         public int AmbulanceId { get; set; }
         public string PlateNumber { get; set; }
         public string CurrentLocation { get; set; }
-        public AmbulanceStatus Status { get; set; }
-        public AmbulanceType Type { get; set; }
+        public AmbulanceStatus Status { get; set; }  
+        public AmbulanceType Type { get; set; } = AmbulanceType.EquippedWithNurse;
         public ICollection<Trip> Trips { get; set; }
         public int? DriverId { get; set; }
         public Driver Driver { get; set; }

@@ -67,7 +67,7 @@ namespace Service
         }
 
 
-        // update Full Name also ?! ask agian UserId?!
+
         public async Task UpdateNurseAsync(int id, NurseDto dto)
         {
             var nurse = await nurseRepository.GetByIdAsync(id);
@@ -83,7 +83,7 @@ namespace Service
         }
 
 
-        // Should I Delete user or nurse
+
         public async Task<bool> DeleteNurseAsync(int id)
         {
             var nurse = await nurseRepository.GetByIdAsync(id);
