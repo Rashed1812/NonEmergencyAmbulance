@@ -24,7 +24,7 @@ namespace Persistence.Data.Configurations
             builder.HasOne(t => t.Request)
                 .WithOne(r => r.Trip)
                 .HasForeignKey<Trip>(t => t.RequestId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Restrict); 
         }
 
     }

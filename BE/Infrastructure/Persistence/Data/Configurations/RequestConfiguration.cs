@@ -25,7 +25,9 @@ namespace Persistence.Data.Configurations
 
             builder.HasOne(r => r.Driver)
                    .WithMany(d => d.AssignedRequests)
-                   .HasForeignKey(r => r.DriverId);
+                   .HasForeignKey(r => r.DriverId)
+                   .OnDelete(DeleteBehavior.SetNull);
+
 
             builder.HasOne(r => r.Nurse)
                    .WithMany(n => n.AssignedRequests)

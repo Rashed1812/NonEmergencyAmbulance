@@ -11,7 +11,7 @@ namespace Presentation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RequestController(IRequestService _requestService , IDistanceService _distanceService) : ControllerBase
+    public class RequestController(IRequestService _requestService, IDistanceService _distanceService) : ControllerBase
     {
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -106,5 +106,15 @@ namespace Presentation.Controllers
             var km = await _distanceService.CalculateKMAsync(from, to);
             return Ok(new { Distance = km });
         }
-    }
+        //Get Request By User Id
+        [HttpGet("user/{userId}")]
+        public async Task<IActionResult> GetRequestsByUserId(string userId)
+        {
+            var result = await _requestService.GetRequestsByUserIdAsync(userId);
+            if (result == null || !result.Any())
+                return NotFound("No requests found for this user.");
+            return Ok(result);
+
+        }
+    }   
 }

@@ -34,5 +34,22 @@ namespace Persistence.Repositories
 
             return driver;
         }
+
+        public async Task<Driver> GetByIdWithRequestsAndTripsAsync(int driverId)
+        {
+            return await _dbContext.Drivers
+                .Include(d => d.AssignedRequests)
+                .Include(d => d.Trips)
+                    .ThenInclude(t => t.Request)
+                .Include(d => d.Ambulances)
+                .FirstOrDefaultAsync(d => d.Id == driverId);
+        }
+
+        public async Task<Driver> GetDriverByIdWithAmbulance(int id)
+        {
+            return await _dbContext.Drivers
+                .Include(d => d.Ambulances)
+                .FirstOrDefaultAsync(d => d.Id == id);
+        }
     }
 }

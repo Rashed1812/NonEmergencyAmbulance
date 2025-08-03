@@ -27,12 +27,13 @@ namespace Service.Mapping
                 PatientName = request.Patient.User.FullName,
                 PatientPhone = request.Patient?.PhoneNumber,
                 PatientAddress = request.Patient?.Address,
-
                 DriverId = request.DriverId,
                 DriverName = request.Driver?.User?.FullName,
-
+                DriverPhone = request.Driver?.PhoneNumber,
+                AmbulancePlateNumber = request.Trip?.Ambulance?.PlateNumber,
+                NursePhone = request.Nurse?.PhoneNumber,
                 NurseId = request.NurseId,
-                NurseName = request.Nurse?.User?.FullName
+                NurseName = request.Nurse?.User?.FullName,
             };
         }
         public static AssignUpdateRequestDTO ToAssignUpdateRequestDTO(this Request request)

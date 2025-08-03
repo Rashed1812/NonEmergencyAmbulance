@@ -23,5 +23,6 @@ namespace DomainLayer.Contracts
         Task<bool> IsDriverDoubleBookedAsync(int driverId, DateTime scheduledDate);
         Task<bool> IsNurseDoubleBookedAsync(int nurseId, DateTime scheduledDate);
         Task<bool> IsAmbulanceDoubleBookedAsync(int ambulanceId, DateTime scheduledDate);
+        Task<List<Request>> GetRequestsByUserIdAsync(string userId);
     }
 }
