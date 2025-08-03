@@ -55,7 +55,7 @@ namespace Persistence.Data.Migrations
 
                     b.HasIndex("DriverId");
 
-                    b.ToTable("Ambulances");
+                    b.ToTable("Ambulances", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Identity_Module.Admin", b =>
@@ -79,7 +79,7 @@ namespace Persistence.Data.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Admins");
+                    b.ToTable("Admins", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Identity_Module.ApplicationUser", b =>
@@ -181,7 +181,7 @@ namespace Persistence.Data.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Drivers");
+                    b.ToTable("Drivers", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Identity_Module.Nurse", b =>
@@ -213,7 +213,7 @@ namespace Persistence.Data.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Nurses");
+                    b.ToTable("Nurses", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Identity_Module.Patient", b =>
@@ -254,7 +254,7 @@ namespace Persistence.Data.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Patients");
+                    b.ToTable("Patients", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Request_Module.Request", b =>
@@ -314,7 +314,7 @@ namespace Persistence.Data.Migrations
 
                     b.HasIndex("PatientId");
 
-                    b.ToTable("Requests");
+                    b.ToTable("Requests", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Trip_Module.Rating", b =>
@@ -357,7 +357,7 @@ namespace Persistence.Data.Migrations
 
                     b.HasIndex("TripId");
 
-                    b.ToTable("Ratings");
+                    b.ToTable("Ratings", (string)null);
                 });
 
             modelBuilder.Entity("DomainLayer.Models.Trip_Module.Trip", b =>
@@ -407,7 +407,7 @@ namespace Persistence.Data.Migrations
                     b.HasIndex("RequestId")
                         .IsUnique();
 
-                    b.ToTable("Trips");
+                    b.ToTable("Trips", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -21,5 +21,6 @@ namespace ServiceAbstraction
         public Task<RequestDTO?> GetRequestById(RequestDTO requestDTO);
         Task<TripDTO?> ConfirmPatientAsync(int requestId);
         Task<bool> CancelRequestAsync(int requestId);
+        Task<IEnumerable<RequestDTO>> GetRequestsByUserIdAsync(string userId);
     }
 }

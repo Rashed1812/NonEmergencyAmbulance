@@ -54,9 +54,22 @@ namespace Presentation.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var deleted = await driverService.DeleteDriverAsync(id);
-            if (!deleted) return NotFound();
-            return Ok();
+            try
+            {
+                var deleted = await driverService.DeleteDriverAsync(id);
+                if (!deleted)
+                    return NotFound("Driver not found");
+
+                return Ok(new { message = "Driver deleted successfully" });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { message = "An error occurred while deleting the driver" });
+            }
         }
 
         [HttpPatch("{id}/toggle-availability")]

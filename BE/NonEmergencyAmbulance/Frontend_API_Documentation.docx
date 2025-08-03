@@ -1,0 +1,301 @@
+# Non-Emergency Ambulance Frontend Integration Prompt
+
+## General Info
+- Backend Base URL: https://localhost:7159/api/
+- Authentication:
+  - Use JWT token in Authorization: Bearer <token> header for all protected endpoints.
+  - Each user has a role: Patient, Nurse, Driver, Admin.
+
+---
+
+## 1️⃣ Patient Dashboard
+
+### 1. Register / Login
+- Register:
+  POST /authentication/register/patient
+  
+  Email: user@mail.com
+  Password: 123456
+  FullName: User Name
+  PhoneNumber: 0123456789
+  Address: Some Address
+  MedicalHistory: None
+  Gender: 0
+  DateOfBirth: 1990-01-01T00:00:00
+
+- Login:
+  POST /authentication/login
+  
+  Email: user@mail.com
+  Password: 123456
+
+- Response (both):
+  FullName: User Name
+  Email: user@mail.com
+  Token: jwt-token
+  DisplayName: User Name
+  Role: Patient
+
+---
+
+### 2. Create Request
+- Endpoint:
+  POST /request?userId={userId}
+- Request:
+  PickupAddress: العنوان الحالي
+  DropOffAddress: العنوان المطلوب
+  ScheduledDate: 2024-07-18T10:00:00
+  EmergencyType: عادي
+  Notes: أي ملاحظات
+  AssignedAmbulanceId: 1
+- Response:
+  requestId: 5
+  pickupAddress: ...
+  dropOffAddress: ...
+  scheduledDate: ...
+  status: 0
+  ...
+
+---
+
+### 3. View Request Details (after assign, before confirm)
+- Endpoint:
+  GET /request/{id}
+- Response:
+  requestId: 5
+  pickupAddress: ...
+  dropOffAddress: ...
+  scheduledDate: ...
+  status: 1
+  ambulancePlateNumber: 1234
+  ambulanceType: Regular
+  driverName: سائق
+  driverPhone: 010...
+  nurseName: ممرضة
+  nursePhone: 011...
+  price: 200.0
+
+---
+
+### 4. Confirm Request (convert to Trip)
+- Endpoint:
+  POST /request/confirm-request/{requestId}
+- Response:
+  tripId: 3
+  startTime: ...
+  pickupAddress: ...
+  driverName: ...
+  nurseName: ...
+  distanceKM: 10.5
+  price: 200.0
+  tripStatus: 2
+
+---
+
+### 5. View All Trips
+- Endpoint:
+  GET /patient/{id}/trips
+- Response:
+  [
+    {
+      tripId: 1,
+      startTime: ...,
+      endTime: ...,
+      pickupAddress: ...,
+      dropOffAddress: ...,
+      driverName: ...,
+      nurseName: ...,
+      distanceKM: 8.0,
+      price: 150.0,
+      tripStatus: 3
+    }
+  ]
+
+---
+
+### 6. Edit Profile
+- Endpoint:
+  PUT /patient/{id}
+- Request:
+  Id: 1
+  FullName: اسم جديد
+  PhoneNumber: 0123456789
+  Address: عنوان جديد
+  MedicalHistory: تاريخ مرضي
+  Gender: 0
+  DateOfBirth: 1990-01-01T00:00:00
+  UserId: string
+- Response:
+  Patient object after update.
+
+---
+
+### 7. Add Review (Rating)
+- Endpoint:
+  POST /rating
+- Request:
+  TripId: 3
+  DriverId: 2
+  NurseId: 5
+  PatientId: 1
+  Score: 5
+  Notes: ممتاز
+  CreatedAt: 2024-07-18T12:00:00
+- Response:
+  {}
+
+---
+
+## 2️⃣ Nurse Dashboard
+
+### 1. Login
+- Same as Patient, but role is "Nurse".
+
+---
+
+### 2. View Available Requests
+- Endpoint:
+  GET /request/available-for-nurse
+- Response:
+  Array of RequestDTO.
+
+---
+
+### 3. Accept Request
+- Endpoint:
+  PUT /request/assign-nurse
+- Request:
+  RequestId: 5
+  NurseId: 7
+- Response:
+  Updated RequestDTO.
+
+---
+
+### 4. View Request & Patient Details
+- Endpoint:
+  GET /request/{id}
+  (contains patient info)
+
+---
+
+### 5. Edit Profile
+- Endpoint:
+  PUT /nurse/{id}
+- Request:
+  Certification: شهادة جديدة
+  IsAvailable: true
+  PhoneNumber: 0123456789
+  UserId: string
+- Response:
+  No Content (204).
+
+---
+
+## 3️⃣ Driver Dashboard
+
+### 1. Login
+- Same as Patient, but role is "Driver".
+
+---
+
+### 2. View Available Requests
+- Endpoint:
+  GET /request/available-for-driver
+- Response:
+  Array of RequestDTO.
+
+---
+
+### 3. Accept Request
+- Endpoint:
+  PUT /request/assign-driver
+- Request:
+  RequestId: 5
+  DriverId: 3
+- Response:
+  Updated RequestDTO.
+
+---
+
+### 4. View Request & Patient Details
+- Endpoint:
+  GET /request/{id}
+
+---
+
+### 5. Edit Profile
+- Endpoint:
+  PUT /driver/{id}
+- Request:
+  Id: 3
+  LicenseNumber: 123456
+  PhoneNumber: 0123456789
+  IsAvailable: true
+  UserId: string
+  UserFullName: اسم السائق
+- Response:
+  Updated DriverDTO.
+
+---
+
+### 6. View Ambulance Info
+- Endpoint:
+  GET /ambulance/{id}
+  (get id from request or profile)
+
+---
+
+## 4️⃣ Admin Dashboard
+
+### 1. Login
+- Same as Patient, but role is "Admin".
+
+---
+
+### 2. View All Drivers, Nurses, Ambulances, Patients
+- Endpoints:
+  - GET /admin/drivers
+  - GET /admin/nurses
+  - GET /admin/ambulances
+  - GET /admin/patients
+- Response:
+  Array of objects for each type.
+
+---
+
+### 3. Add Driver, Nurse, Ambulance
+- Endpoints:
+  - POST /driver (DriverRegisterDTO)
+  - POST /nurse (NurseRegisterDTO)
+  - POST /ambulance (AmbulanceDTO)
+- Request:
+  Use the corresponding DTO.
+
+---
+
+### 4. View All Requests & Trips
+- Endpoints:
+  - GET /admin/requests
+  - GET /admin/trips
+- Response:
+  Array of RequestDTO or TripDTO.
+
+---
+
+### 5. View Reports
+- Endpoints:
+  - GET /report/totals
+  - GET /report/most-active-drivers
+  - GET /report/most-active-nurses
+- Response:
+  - Totals: { "totalRequests": 10, "totalTrips": 5, "totalRevenue": 1000 }
+  - Most active: Array of drivers/nurses.
+
+---
+
+## Notes
+- Always send JWT token in header for protected endpoints.
+- Handle error responses (validation, unauthorized, not found) as JSON messages.
+- All requests/responses are JSON.
+- For any missing DTO structure, refer to backend DTOs or ask for clarification. 

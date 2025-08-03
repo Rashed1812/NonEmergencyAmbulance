@@ -152,5 +152,14 @@ namespace Service
             await _requestRepo.SaveChangesAsync();
             return true;
         }
+
+        public async Task<IEnumerable<RequestDTO>> GetRequestsByUserIdAsync(string userId)
+        {
+            var patient = await _patientRepo.GetPatientByUserIdAsync(userId);
+            if (patient == null)
+                throw new Exception("المريض غير موجود");
+            var requests = await _requestRepo.GetRequestsByUserIdAsync(patient.UserId);
+            return requests.Select(r => r.ToRequestDTO());
+        }
     }
 }
